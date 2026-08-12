@@ -9,9 +9,9 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "true"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
-      == "base-jedlcz"
+      == "base-nfarkf"
   labels:
-    appstudio.openshift.io/application: application-bxed
+    appstudio.openshift.io/application: application-qcyh
     appstudio.openshift.io/component: component-prefetch-rpm
     pipelines.appstudio.openshift.io/type: build
   name: component-prefetch-rpm-on-pull-request
